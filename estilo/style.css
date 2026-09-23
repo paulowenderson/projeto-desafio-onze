@@ -80,11 +80,12 @@ section.imagem > p {
 section#img01 {
     background-image: url('../imagens/ladybug.jpg');
     background-position: center center;
+    filter: sepia(60%);
 }
 
 section#img02 {
     background-image: url('../imagens/letter.jpg');
-    filter: opacity(0.8);
+    filter: sepia(60%);
 }
 
 section.normal {
