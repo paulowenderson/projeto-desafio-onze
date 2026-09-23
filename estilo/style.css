@@ -84,6 +84,7 @@ section#img01 {
 
 section#img02 {
     background-image: url('../imagens/letter.jpg');
+    filter: opacity(0.8);
 }
 
 section.normal {
