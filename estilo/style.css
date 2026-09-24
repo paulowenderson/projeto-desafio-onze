@@ -22,10 +22,12 @@ html, body {
     background-color: darkgray;
 }
 
-header {
+header, address {
     background-color: rgb(35, 35, 253);
     color: rgb(192, 192, 192);
     text-align: center;
+    padding: 15px;
+    font-size: 1em;
 }
 
 header > h1 {
@@ -35,17 +37,20 @@ header > h1 {
     font-size: 10vw;
 }
 
-header > p {
-    padding-bottom: 50px;
+
+address {
+    color: rgb(192, 192, 192);
+    font-weight: bold;
+    font-style: normal;
 }
 
-header a, footer a {
+a {
     color: rgb(192, 192, 192);
     text-decoration: none;
     font-weight: bold;
 }
 
-header a:hover, footer a:hover {
+address a:hover {
     text-decoration: underline;
 }
 
@@ -58,8 +63,11 @@ section {
     font-size: 3.5vw;
 }
 
-section > p {
+section > blockquote {
+    display: block;
     padding-bottom: 2em;
+    white-space: pre-line;
+    font-style: normal;
 }
 
 section.imagem {
@@ -70,7 +78,7 @@ section.imagem {
     background-attachment: fixed;
 }
 
-section.imagem > p {
+section.imagem > blockquote {
     display: inline-block;
     padding: 5px;
     background-color: rgba(0, 0, 0, 0.507);
@@ -96,6 +104,7 @@ section.normal {
 footer {
     background-color: rgb(35, 35, 253);
     color: rgb(192, 192, 192);
+    font-weight: bold;
     text-align: center;
     padding: 15px 0;
 }
